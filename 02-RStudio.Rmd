@@ -1,0 +1,18 @@
+# (PART) Preliminaries {-}
+
+# Getting Oriented in R Studio
+
+
+
+
+
+
+
+```{r}
+library(sf)
+library(tmap)
+library(tidycensus)
+library(tidyverse)
+```
+
+
