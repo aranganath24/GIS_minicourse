@@ -1,16 +1,19 @@
 # Satellite Imagery and Remote Sensing
 
-```{r}
-library(rgee)
-library(reticulate)
-ee_clean_pyenv()
+```{r, echo=F, eval=F}
+# ee_clean_pyenv()
+# library(rgee)
+# library(reticulate)
+
+# run in console
+ee_install()
 ee_Initialize()
+
+run in MD
 ```
 
 
-
-
-
+test2 44 66
 
 ```{r}
 createTimeBand <-function(img) {
@@ -43,5 +46,10 @@ Map$addLayer(
   name = "stable lights trend"
 )
 ```
+
+
+
+update
+
 
 
